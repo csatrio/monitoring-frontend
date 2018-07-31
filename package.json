@@ -1,0 +1,29 @@
+{
+  "name": "monitoring-frontend",
+  "version": "1.0.0",
+  "description": "middleware between IoT device and django based API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "constantinus satrio",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/csatrio/monitoring-frontend.git"
+  },
+  "devDependencies": {
+    "eslint": "^5.2.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0"
+  },
+  "dependencies": {
+    "bufferutil": "^4.0.0",
+    "utf-8-validate": "^5.0.1",
+    "ws": "^6.0.0"
+  }
+}
