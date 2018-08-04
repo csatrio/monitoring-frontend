@@ -3,6 +3,13 @@
     "rules": {
         "space-before-function-paren": "warn",
         "eol-last": "off",
-        "semi": "warn"
+        "semi": "warn",
+        "camelcase": "off",
+        "no-trailing-spaces": "off",
+        "padded-blocks": "off",
+        "no-unused-vars": "warn",
+        "space-before-blocks": "warn",
+        "keyword-spacing": "warn",
+        "eqeqeq":"warn"
     }
 }
