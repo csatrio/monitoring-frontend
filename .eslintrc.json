@@ -1,7 +1,7 @@
 {
     "extends": "standard",
     "rules": {
-        "space-before-function-paren": "warn",
+        "space-before-function-paren": "off",
         "eol-last": "off",
         "semi": "warn",
         "camelcase": "off",
@@ -10,6 +10,7 @@
         "no-unused-vars": "warn",
         "space-before-blocks": "warn",
         "keyword-spacing": "warn",
-        "eqeqeq":"warn"
+        "eqeqeq":"warn",
+        "handle-callback-err": "off"
     }
 }
